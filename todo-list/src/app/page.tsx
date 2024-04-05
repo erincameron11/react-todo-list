@@ -1,9 +1,17 @@
 // import Image from "next/image";
+// import { ToDoForm } from '../components/ToDoForm';
+// import { ToDoList } from '../components/ToDoList';
+import { ToDoWrapper } from '../components/ToDoWrapper';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <button className="button">New Task</button>
+
+      <ToDoWrapper />
+      {/* <ToDoForm />
+      <ToDoList /> */}
+
+      {/* <button className="button">New Task</button>
       <h2>Tasks:</h2>
       <table>
         <tr>
@@ -18,8 +26,7 @@ export default function Home() {
           <td>Laura</td>
           <td>31</td>
         </tr>
-      </table>
-      {/* <div className="container"></div> */}
+      </table> */}
       
 
 
