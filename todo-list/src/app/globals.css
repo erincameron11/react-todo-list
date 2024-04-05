@@ -6,10 +6,6 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 30, 18, 64;
   --background-end-rgb: 39, 24, 83;
-  /* --background-start-rgb: 103, 58, 183; */
-  /* --background-end-rgb: 138, 74, 243; */
-  /* --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,7 +33,14 @@ body {
 }
 
 .title {
-  
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+form {
+  margin-bottom: 45px;
 }
 
 button {
@@ -62,7 +65,7 @@ input {
   padding-left: 5px;
   height: 42px;
   background: none;
-  border: 1px solid #342953;
+  border: 2px solid #342953;
   color: white;
 }
 
@@ -76,6 +79,21 @@ input::placeholder {
   border-radius: 10px;
 }
 
+.checkboxes {
+  height: 25px;
+  border-radius: 3px;
+  width: 25px;
+  outline: none;
+}
+
+.checkboxes:checked {
+  accent-color: #1e1240;
+}
+
+.checkedOff {
+  text-decoration: line-through;
+}
+
 .edit, .delete {
   cursor: pointer;
   margin-right: 15px;
@@ -84,7 +102,7 @@ input::placeholder {
 .ToDoListItem {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: #342953;
   color: white;
   padding: 20px;
