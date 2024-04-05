@@ -30,3 +30,6 @@ Users are able to do all CRUD operations:
 1. Created new repo on GitHub.
 2. Cloned the repo, and navigated into the folder.
 3. Ran the command `npx create-next-app@latest` from this [reference documentation](https://react.dev/learn/start-a-new-react-project), and selected `Yes` to `Typescript`, `ESLint`, `Tailwind CSS`, `'src/' directory`, and `App Router`. Selected `No` for customizing import aliases.
+
+
+[Ref](https://www.youtube.com/watch?v=LoYbN6qoQHA)
