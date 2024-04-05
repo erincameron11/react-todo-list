@@ -36,7 +36,10 @@ body {
   }
 }
 
-/* New Task button */
+.title {
+  
+}
+
 button {
   padding: 10px 15px;
   border-radius: 10px;
@@ -64,11 +67,26 @@ input {
 }
 
 input::placeholder {
-  color: white;
+  color: #D3D3D3;
 }
 
 .wrapper {
   background-color: #686cbc;
   padding: 40px;
+  border-radius: 10px;
+}
+
+.edit, .delete {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.ToDoListItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #342953;
+  color: white;
+  padding: 20px;
   border-radius: 10px;
 }

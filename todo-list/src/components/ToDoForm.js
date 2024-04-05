@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-export const ToDoForm = () => {
+export const ToDoForm = ({addToDo}) => {
     const [value, setValue] = useState("");
 
     // Function to handle entering text into input field
@@ -13,12 +13,16 @@ export const ToDoForm = () => {
     const handleSubmit = e => {
         e.preventDefault(); // to prevent the page from reloading on submit
 
-        console.log(value);
+        // Add the todo to the list of todos
+        addToDo(value);
+
+        // Clear the form
+        setValue("")
     }
 
     return(
         <form onSubmit={handleSubmit}>
-            <input placeholder="enter task here" onChange={handleTextEntered}/>
+            <input placeholder="enter task here" onChange={handleTextEntered} value={value}/>
             <button type="submit">Add Task</button>
         </form>
     );
