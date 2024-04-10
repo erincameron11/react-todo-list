@@ -4,7 +4,7 @@
 A simple To Do List application using the full-stack Next.js React framework.
 
 
-## Title
+## App Operations
 Users are able to do all CRUD operations:
 * Create a task
 * Read the list of tasks
