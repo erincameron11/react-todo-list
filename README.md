@@ -26,10 +26,14 @@ Users are able to do all CRUD operations:
 2. Open in a browser using the link [http://localhost:3000](http://localhost:3000).
 
 
-## Created
+## App Initialization
 1. Created new repo on GitHub.
 2. Cloned the repo, and navigated into the folder.
 3. Ran the command `npx create-next-app@latest` from this [reference documentation](https://react.dev/learn/start-a-new-react-project), and selected `Yes` to `Typescript`, `ESLint`, `Tailwind CSS`, `'src/' directory`, and `App Router`. Selected `No` for customizing import aliases.
+4. Installed FontAwesome:
+    * `npm i --save @fortawesome/fontawesome-svg-core`
+    * `npm i --save @fortawesome/free-solid-svg-icons`
+    * `npm i --save @fortawesome/react-fontawesome@latest`
 
 
 [Ref](https://www.youtube.com/watch?v=LoYbN6qoQHA)
